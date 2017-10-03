@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset = "utf-8">
+	<title>
+		EAD3
+	</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+	<h1 align = "center" > Avaliação de Resultados </h1>
+
+	<form align = "center" action="saida.php" method="POST" >
+	<div class="formulario">
+		<p>
+			<strong>Nome do Aluno:</strong><br>
+			<input type="text" name="NomeAluno"> 
+		</p>
+	
+		<p>
+			<strong>Nome da Disciplina: </strong><br>
+			<input type="text" name="NomeDisciplina"> 
+		</p>
+		<p>
+			<strong>Nome do Curso: </strong><br>
+			<input type="text" name="NomeCurso"> 
+		</p>
+		<p>
+			<strong>Link para a logomarca da faculdade:</strong><br>
+			<input type="text" name="linkImagem"> 
+		</p>
+		<p>
+			<strong>Nota da VA1 (0-15):</strong><br>
+			<input type="text" name="Nota1"> 
+		</p>
+		<p>
+			<strong>Nota da VA2 (0-25):</strong><br>
+			<input type="text" name="Nota2"> 
+		</p>
+		<p>
+			<strong>Nota da VA3 (0-35):</strong><br>
+			<input type="text" name="Nota3" > 
+		</p>
+		<p>
+			<strong>Notas dos Trabalhos (0-25):</strong><br>
+			<input type="text" name="Notatrab"> 
+		</p>
+		<p>
+			<strong>Nome do(a) Professor(a): </strong><br>
+			<input type="text" name="NomeProf">
+		</p> 
+		<p>
+			<strong>Nome do(a) Coordenador(a):</strong><br>
+			<input type="text" name="NomeCoordenador"> 
+		</p>
+	</div>
+	<div class="formulario2">	
+		
+		<input type="submit" name="enviar" value="Gerar Declaração">
+	</div>	
+		
+	</form>
+</body>
+</html>
